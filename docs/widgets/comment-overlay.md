@@ -8,7 +8,7 @@
 ## 位置づけ
 
 GoodLiveWidget 全体の **ウィジェットの 1 型** です。  
-わんコメのような単体製品ではなく、カウンターやテロップと同じ基盤（WebSocket / HTML）で動作します。
+カウンターやテロップと同じ基盤（WebSocket / HTML）で動作します。
 
 配信者の主確認 UI は [配信連携パネル](../panels/streaming-integration.md) のライブログです。  
 本ウィジェットは **視聴者向け OBS 演出** 向けです。

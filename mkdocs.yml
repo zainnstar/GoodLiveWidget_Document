@@ -6,16 +6,18 @@ copyright: Copyright &copy; 2026 稲峰幸助 Inamine Kosuke - GoodLuckLab
 theme:
   name: material
   language: ja
+  logo: img/GLWidget_Icon.png
+  favicon: img/GLWidget_Icon.png
   palette:
   - scheme: default
-    primary: deep purple
-    accent: purple
+    primary: blue
+    accent: light-blue
     toggle:
       icon: material/brightness-7
       name: ダークモードに切り替え
   - scheme: slate
-    primary: deep purple
-    accent: purple
+    primary: blue
+    accent: light-blue
     toggle:
       icon: material/brightness-4
       name: ライトモードに切り替え
