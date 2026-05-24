@@ -1,0 +1,77 @@
+site_name: GoodLiveWidget ドキュメント
+site_description: ライブ配信向けオーバーレイ管理ソフト「GoodLiveWidget」の公式ドキュメント
+site_url: https://zainnstar.github.io/GoodLiveWidget_Document/
+copyright: Copyright &copy; 2026 稲峰幸助 Inamine Kosuke - GoodLuckLab
+
+theme:
+  name: material
+  language: ja
+  palette:
+  - scheme: default
+    primary: deep purple
+    accent: purple
+    toggle:
+      icon: material/brightness-7
+      name: ダークモードに切り替え
+  - scheme: slate
+    primary: deep purple
+    accent: purple
+    toggle:
+      icon: material/brightness-4
+      name: ライトモードに切り替え
+  features:
+  - navigation.tabs
+  - navigation.tabs.sticky
+  - navigation.sections
+  - navigation.expand
+  - navigation.instant
+  - navigation.top
+  - toc.integrate
+  - search.suggest
+  - search.highlight
+  - content.code.copy
+
+plugins:
+- search:
+    lang: ja
+
+markdown_extensions:
+- admonition
+- pymdownx.details
+- pymdownx.superfences
+- pymdownx.tabbed:
+    alternate_style: true
+- pymdownx.highlight:
+    anchor_linenums: true
+- pymdownx.inlinehilite
+- attr_list
+- md_in_html
+- tables
+
+nav:
+- はじめに: index.md
+- インストール: installation.md
+- クイックスタート: getting-started.md
+- パネル:
+  - パネル一覧: panels/overview.md
+  - ウィジェット一覧: panels/widget-list.md
+  - インスペクタ: panels/inspector.md
+  - 接続: panels/connection.md
+  - トランスフォーム: panels/transform.md
+  - プレビュー: panels/preview.md
+  - 設定: panels/settings.md
+  - 配信連携: panels/streaming-integration.md
+  - 視聴者分析: panels/viewer-analytics.md
+  - コメント分析: panels/comment-analytics.md
+  - コメントテスト: panels/comment-test.md
+  - ログ: panels/logs.md
+- ウィジェット:
+  - ウィジェット一覧: widgets/overview.md
+  - カウンター: widgets/counter.md
+  - セットリスト: widgets/setlist.md
+  - コメントオーバーレイ: widgets/comment-overlay.md
+  - お絵描き: widgets/paint.md
+  - 配信連動系: widgets/streaming-widgets.md
+  - その他ツール: widgets/utility-widgets.md
+- ライセンス: license.md
+- FAQ: faq.md
