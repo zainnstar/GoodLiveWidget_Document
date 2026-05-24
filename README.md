@@ -18,4 +18,13 @@ mkdocs serve
 
 - `docs/` … Markdown 原稿
 - `mkdocs.yml` … サイト設定・ナビゲーション
-- `.github/workflows/deploy.yml` … main への push で GitHub Pages へ自動デプロイ
+- `.github/workflows/deploy.yml` … main への push で `gh-pages` ブランチへ自動デプロイ
+
+## GitHub Pages の設定（初回のみ）
+
+リポジトリ **Settings → Pages** で次を選んでください。
+
+- **Source**: Deploy from a branch
+- **Branch**: `gh-pages` / `/ (root)`
+
+「GitHub Actions」ソースのままだと、ワークフローと競合して更新が反映されないことがあります。
